@@ -14,7 +14,7 @@ selectors inside search.css.
 
 <div id="searchresults">
   
-  <form action="/search" method="get">
+  <form action="/search" method="get" class="search-form" role="search">
     <p>
       <input type="text" name="q" value="{{ search.terms | escape }}" />
       <input type="submit" value="Search store..." />
