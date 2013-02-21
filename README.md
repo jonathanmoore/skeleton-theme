@@ -5,7 +5,10 @@ The Skeleton theme is a simplified Shopify theme, to be used as a "blank slate" 
 
 <b>Features:</b>
 - Almost no CSS or theme settings. Ready to be customized any way you want. 
-- Inline comments added to get you up to speed on learning Liquid
+- Inline comments added to get you up to speed on learning Liquid.
+
+
+Designing a store for a client? Earn 20% revenue through our Partner program: http://www.shopify.com/partners
 
 
 Getting started
@@ -18,14 +21,14 @@ Basic structure
 ---------------
 ```
 ├── assets
-│   └── your Javascript, CSS, and theme images
+│   └── Javascript, CSS, and theme images
 ├── config
-│   ├── settings.html
-│   └── settings_data.json
+│   └── custom Theme Settings
 ├── layout
 │   ├── theme.liquid
+│   └── optional alternate layouts
 ├── snippets
-│   └── your custom theme snippets
+│   └── optional custom code snippets
 ├── templates
 │   ├── 404.liquid
 │   ├── article.liquid
@@ -41,6 +44,5 @@ Basic structure
 Additional resources
 ---------------------
 - Theme Documentation: http://wiki.shopify.com/Main_Page
-- Forums: http://ecommerce.shopify.com/
-- Partner program: http://www.shopify.com/partners
-
+- Design Forums: http://ecommerce.shopify.com/c/ecommerce-design
+- Shopify for Designers workshops: http://meetup.shopify.com/
