@@ -8,7 +8,7 @@ The Skeleton theme is a simplified Shopify theme, to be used as a "blank slate" 
 - Inline comments added to get you up to speed on learning Liquid.
 
 
-Designing a store for a client? Earn 20% revenue through our Partner program: http://www.shopify.com/partners
+Designing a store for a client? Earn 20% revenue through our <a href="http://www.shopify.com/partners">Partner program<a/>.
 
 
 Getting started
@@ -43,6 +43,6 @@ Basic structure
 
 Additional resources
 ---------------------
-- Theme Documentation: http://wiki.shopify.com/Main_Page
-- Design Forums: http://ecommerce.shopify.com/c/ecommerce-design
-- Shopify for Designers workshops: http://meetup.shopify.com/
+- Learn more on our <a href="http://wiki.shopify.com/Main_Page">Theme Documentation</a>
+- Need more help? <a href="http://ecommerce.shopify.com/c/ecommerce-design">Ask a question in our Design Forums</a>
+- Keep an eye out for Shopify for Designers <a href="http://meetup.shopify.com/">workshops</a> in a city near you
