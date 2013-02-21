@@ -1,0 +1,42 @@
+{% comment %}
+Important notes about pagination:
+- Never access collection.products before the opening paginate tag.
+- Never paginate by more than 50.
+{% endcomment %}
+
+{% paginate collection.products by 8 %}
+
+{% comment %}
+Re-use the 'rte' class wherever you output content that was added by a merchant using
+the Rich Text Editor ( 'rte' stands for rich text editor ).
+Style all HTML elements in that content the same way across the board.
+Use the 'rte' class in your CSS to help maintain that consistency.
+Example: the h2 element should have the same size and color in:
+- product descriptions
+- collection descriptions
+- 'page' pages' content
+- blog post
+{% endcomment %}
+
+<h1>{{ collection.title }}</h1>
+{% if collection.description.size > 0 %}
+<div class="rte">
+  {{ collection.description }}
+</div>
+{% endif %}
+
+<ul class="grid clearfix">
+{% for product in collection.products %}
+  {% include 'product-grid-item' with 'three-per-row' %}
+{% else %}
+<p>There are no products in this view.</p>
+{% endfor %}
+</ul>
+
+{% if paginate.pages > 1 %}
+<div id="pagination">
+  {{ paginate | default_pagination }}
+</div>
+{% endif %}
+
+{% endpaginate %}
