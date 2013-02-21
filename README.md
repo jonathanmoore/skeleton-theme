@@ -1,0 +1,4 @@
+skeleton-theme
+==============
+
+skeleton-theme
