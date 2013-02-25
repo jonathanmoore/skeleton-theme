@@ -46,8 +46,7 @@
     
 {% if paginate.pages > 1 %}
 <div id="pagination">
-  {{ paginate | default_pagination }}
-</div>
+  {{ paginate | default_pagination | replace: 'Previous', 'Newer articles' | replace: 'Next', 'Older articles' }}
 {% endif %}
 
 {% endpaginate %}
