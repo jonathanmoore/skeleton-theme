@@ -40,28 +40,30 @@ selectors inside search.css.
     {% endcomment %}
   
     {% if search.results_count == 0 %}  
-      <p>Your search for "{{ search.terms }}" did not yield any results.</p>              
-    {% else %}  
-
-        <ol>
-        {% for item in search.results %}      
-        <li class="clearfix">
-          <h3>{{ item.title | link_to: item.url }}</h3>
-          {% if item.featured_image %}
-          <div class="result-image">
-            <a href="{{ item.url }}" title="{{ item.title | escape }}">
-              {{ item.featured_image.src | product_img_url: 'small' | img_tag: item.featured_image.alt }}
-            </a>
-          </div>
-          {% endif %}
-          <span>{{ item.content | strip_html | truncatewords: 40 | highlight: search.terms }}</span>        
-        </li>
-        {% endfor %}
-        </ol>      
-
+    <p>Your search for "{{ search.terms }}" did not yield any results.</p>              
+    {% else %}
+    <ol>
+      {% for item in search.results %}      
+      <li class="clearfix">
+        <h3>{{ item.title | link_to: item.url }}</h3>
+        {% if item.featured_image %}
+        <div class="result-image">
+          <a href="{{ item.url }}" title="{{ item.title | escape }}">
+            {{ item.featured_image.src | product_img_url: 'small' | img_tag: item.featured_image.alt }}
+          </a>
+        </div>
+        {% endif %}
+        <span>{{ item.content | strip_html | truncatewords: 40 | highlight: search.terms }}</span>        
+      </li>
+      {% endfor %}
+    </ol>
     {% endif %}    
     
-    <p>{{ paginate | default_pagination }}</p>
+    {% if paginate.pages > 1 %}
+    <div id="pagination">
+      {{ paginate | default_pagination }}
+    </div>
+    {% endif %}
     
     {% endpaginate %}    
     
