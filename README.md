@@ -43,7 +43,7 @@ Basic structure
 
 Additional resources
 ---------------------
-- Learn more about Liquid in our <a href="http://wiki.shopify.com/Main_Page">Theme Documentation</a>.
-- Need more help? <a href="http://ecommerce.shopify.com/c/ecommerce-design">Ask a question in our Design Forums</a>.
-- If you are a Mac OS X user, we recommend our free <a href="http://apps.shopify.com/desktop-theme-editor">Desktop Theme Editor</a> to sync theme files in development. 
-- Keep an eye out for <a href="http://meetup.shopify.com/">Shopify theme workshops</a> in a city near you.
+- <a href="http://meetup.shopify.com/">Free workshops</a>: Sign up for a free Shopify For Designers workshop in a city near you.
+- <a href="http://wiki.shopify.com/Main_Page">Theme Documentation</a>: Learn more about Liquid and theme templates.
+- <a href="http://apps.shopify.com/desktop-theme-editor">Desktop Theme Editor</a>: For Mac OS X users, we recommend our free app to sync theme files in development. 
+- Need more help? Ask a question in our <a href="http://ecommerce.shopify.com/c/ecommerce-design"> Design Forums</a>.
