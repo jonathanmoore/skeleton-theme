@@ -44,6 +44,6 @@ Basic structure
 Additional resources
 ---------------------
 - <a href="http://meetup.shopify.com/">Free workshops</a>: Sign up for a free Shopify For Designers workshop in a city near you.
-- <a href="http://wiki.shopify.com/Main_Page">Theme Documentation</a>: Learn more about Liquid and theme templates.
+- <a href="http://docs.shopify.com/themes">Theme Documentation</a>: Learn more about Liquid and theme templates.
 - <a href="http://apps.shopify.com/desktop-theme-editor">Desktop Theme Editor</a>: For Mac OS X users, we recommend our free app to sync theme files in development. 
 - Need more help? Ask a question in our <a href="http://ecommerce.shopify.com/c/ecommerce-design"> Design Forums</a>.
