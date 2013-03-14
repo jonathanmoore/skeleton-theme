@@ -38,7 +38,7 @@ Note that comment.created_at will only be defined if the comment did not have an
   <ul class="blog-article-meta">
     {% if blog.comments_enabled? %}
     <li class="blog-article-meta-comments">
-      <a href="#comments">{{ number_of_comments }} {{ number_of_comments | pluralize: 'comment': 'comments' }}</a>
+      <a href="#comments">{{ number_of_comments }} {{ number_of_comments | pluralize: 'comment', 'comments' }}</a>
     </li>
     {% endif %}
     {% if article.tags.size > 0 %}
