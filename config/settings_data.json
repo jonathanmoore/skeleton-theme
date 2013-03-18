@@ -3,7 +3,8 @@
   "presets": {
     "Slate": {
       "use_logo": false,
-      "customer_layout": "theme"
+      "customer_layout": "theme",
+      "shop_bg_color": "#bada55"
     }
   }
 }
